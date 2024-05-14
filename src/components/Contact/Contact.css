@@ -1,0 +1,99 @@
+.contact-heading {
+    text-align: center;
+    font-size: 3vw;
+    margin: 4vw 0px 1vw;
+}
+
+.contact-section {
+    padding: 3vw 11vw;
+    display: flex;
+    gap: 3vw;
+    justify-content: space-between;
+}
+
+
+
+.contact-para {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    line-height: 1.4;
+}
+
+.contact-image {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.contact-heading2 {
+    background: linear-gradient(267deg, #DA7c25 0.36%, #b923e1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.5;
+    font-size: 4vw;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7vw;
+}
+
+.contact-detail,.contact-links {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    gap: 1vw;
+    font-size: 1.4vw;
+    align-items: center;
+}
+.contact-input-head{
+    font-size: 1.4vw;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: .4vw;
+}
+
+input,
+textarea {
+    background-color: #161513;
+    outline: none;
+    border: .2vw solid #3b3b3a;
+    color: white;
+    border-radius: .7vw;
+    /* width:100%; */
+    padding: .7vw;
+    font-size: 1.2vw;
+}
+
+.submit {
+    background: linear-gradient(267deg, #DA7c25 0.36%, #b923e1 102.03%);
+    width: 10vw;
+    padding: 1vw;
+    border-radius: 7vw;
+    font-size: 1.4vw;
+    border: none;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+textarea {
+    height: 8vw;
+    font-size:1.4vw;
+}
+
+.submit:hover {
+    transform: scale(1.03);
+    transform: .3s;
+}
+@media(max-width:768px){
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+}

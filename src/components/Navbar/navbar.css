@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vw 12vw;
+}
+
+.logo {
+    font-size: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f7f4f8;
+    font-size: 2vw;
+    font-weight: bold;
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4vw;
+    color: rgb(209, 198, 198);
+    font-size: 1.5vw;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+.nav-menu li a{
+   color: rgb(218, 217, 217);
+    text-decoration: none;
+}
+.nav-menu li:hover{
+    transform: scale(1.02);
+    transition: .6s;
+}
+
+
+.nav-connect {
+    padding: 1.2vw 2vw;
+    border-radius: 5vw;
+    background: linear-gradient(267deg, #DA7c25 0.36%, #b923e1 102.06%);
+    font-size: 1.5vw;
+    cursor: pointer;font-family:   Arial, sans-serif;
+    font-weight: 550;
+    transition: 0.8s;
+}
+.nav-connect a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+
+.nav-mob-close,.nav-mob-open {
+    display: none;
+}
+@media (max-width:768px) {
+    
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: relative;
+        right: 3vw;width: 3vw;
+    }
+    .nav-mob-close{
+        display: block;
+        width: 2vw;
+        position: relative;
+        top: 3vw;
+        left: 29vw;
+        width: 3vw;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 3vw;
+        background-color: #323030;
+        width: 45vw;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -45vw;
+    }
+    .nav-menu li{
+        font-size: 3vw;
+        padding:1vw 3vw;
+        flex-direction: row;
+        gap: 2vw;
+    }
+}
+

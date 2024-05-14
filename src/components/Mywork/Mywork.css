@@ -1,0 +1,28 @@
+.mywork{
+    margin: 4vw 13vw;
+}
+.mywork-heading{
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 4vw;
+}
+.works{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    flex-wrap: wrap;
+
+}
+.work{
+    width: 34vw;
+    height: 21vw;
+    border: 2px solid white;
+    margin-bottom: .5vw;
+    border-radius: .5vw;
+    cursor: pointer;
+
+}
+.work:hover{
+    transform: scale(1.03);
+    transition: .4s;
+}
