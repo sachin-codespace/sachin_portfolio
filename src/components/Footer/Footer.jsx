@@ -30,7 +30,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/sachin-prajapati-swengineer/"><img src={linkedin} className="handle-image" />
                         LinkedIn</a></div>
                         <div className="handle">
-                    <a href="https://github.com/sachin-prajapati-swengineer"><img src={github} className="handle-image" />GitHub</a></div>
+                    <a href="https://github.com/sachin-codespace"><img src={github} className="handle-image" />GitHub</a></div>
                     <div className="handle">
                     <a href="https://twitter.com/sahi7427"><img src={twitter} className="handle-image" /> Twitter</a></div>
                     <div className="handle">
