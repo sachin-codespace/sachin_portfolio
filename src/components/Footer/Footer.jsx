@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css'
 import linkedin from '../../assets/linkedin.png'
-import facebook from '../../assets/facebook.png'
+import github from '../../assets/github.png'
 import twitter from '../../assets/twitter.png'
 import instagram from '../../assets/instagram.png'
 const Footer = () => {
@@ -29,12 +29,13 @@ const Footer = () => {
                     <div className="handle">
                     <a href="https://www.linkedin.com/in/sachin-prajapati-swengineer/"><img src={linkedin} className="handle-image" />
                         LinkedIn</a></div>
+                        <div className="handle">
+                    <a href="https://github.com/sachin-prajapati-swengineer"><img src={github} className="handle-image" />GitHub</a></div>
                     <div className="handle">
                     <a href="https://twitter.com/sahi7427"><img src={twitter} className="handle-image" /> Twitter</a></div>
                     <div className="handle">
                     <a href="https://www.instagram.com/sahi742702/"><img className="handle-image" src={instagram} />Instagram</a></div>
-                    <div className="handle">
-                    <a href="https://www.facebook.com/profile.php?id=100030735589880"><img src={facebook} className="handle-image" />Facebook</a></div>
+                    
                 </div>
             </div>
             
