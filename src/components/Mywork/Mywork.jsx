@@ -13,13 +13,18 @@ const Mywork = () => {
         <div id="work" className="mywork">
             <h1 className="mywork-heading">My Latest Work</h1>
             <div className="works">
-                <img className="work" src={one}/>
-                <img className="work" src={two}/>
-                <img className="work" src={three}/>
-                <img className="work" src={four}/>
-                <img className="work" src={five}/>
-                <img className="work" src={six}/>
-                {/* <img className="work" src={{seven}}/> */}
+
+                <a href=""> <img className="work" src={one} />
+                </a>           
+                  <a href="">  <img className="work" src={two} />
+                </a>         
+                  <a href="">   <img className="work" src={three} /></a>
+                <a href="">   <img className="work" src={four} />
+                </a>           
+                  <a href="">   <img className="work" src={five} />
+                </a>           
+                  <a href="">   <img className="work" src={six} />
+                </a>               {/* <img className="work" src={{seven}}/> */}
             </div>
         </div>
     )
