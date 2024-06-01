@@ -27,14 +27,14 @@ const Footer = () => {
                 <h2 className="footer-right-head">Follow Me</h2>
                 <div className="handles">
                     <div className="handle">
-                    <a href="https://www.linkedin.com/in/sachin-prajapati-swengineer/"><img src={linkedin} className="handle-image" />
+                    <a target="_blank" href="https://www.linkedin.com/in/sachin-prajapati-swengineer/"><img src={linkedin} className="handle-image" />
                         LinkedIn</a></div>
                         <div className="handle">
-                    <a href="https://github.com/sachin-codespace"><img src={github} className="handle-image" />GitHub</a></div>
+                    <a target="_blank" href="https://github.com/sachin-codespace"><img src={github} className="handle-image" />GitHub</a></div>
                     <div className="handle">
-                    <a href="https://twitter.com/sahi7427"><img src={twitter} className="handle-image" /> Twitter</a></div>
+                    <a target="_blank" href="https://twitter.com/sahi7427"><img src={twitter} className="handle-image" /> Twitter</a></div>
                     <div className="handle">
-                    <a href="https://www.instagram.com/sahi742702/"><img className="handle-image" src={instagram} />Instagram</a></div>
+                    <a target="_blank" href="https://www.instagram.com/sahi742702/"><img className="handle-image" src={instagram} />Instagram</a></div>
                     
                 </div>
             </div>
