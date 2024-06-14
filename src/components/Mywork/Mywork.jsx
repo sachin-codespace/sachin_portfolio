@@ -16,9 +16,11 @@ const Mywork = () => {
                 <a target="_blank" href="https://sachin-codespace.github.io/netflix_home/"> <img className="work" src={one} />
                 </a>           
                   <a target="_blank" href="https://sachin-codespace.github.io/bubble_game/">  <img className="work" src={two} />
-                </a>         
+                </a>      
+                
+                   
                   <a target="_blank" href="https://sachin-codespace.github.io/todo_app/">   <img className="work" src={three} /></a>
-                <a target="_blank" href="https://sachin-codespace.github.io/music/">   <img className="work" src={four} />
+                <a target="_blank" href="https://sachin-codespace.github.io/spotify/">   <img className="work" src={four} />
                 </a>           
                   <a target="_blank" href="https://sachin-codespace.github.io/weather_app/">   <img className="work" src={five} />
                 </a>           
