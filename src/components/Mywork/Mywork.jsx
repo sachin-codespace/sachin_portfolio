@@ -21,7 +21,7 @@ const Mywork = () => {
   { title: "Cash Calculator", imageSrc: cash_calculator, webUrl: "https://sachin-codespace.github.io/cash_calculator/" },
   { title: "StopWatch Timer", imageSrc: stopwatch_timer, webUrl: "https://sachin-codespace.github.io/stopwatch/" },
   { title: "Vowel Counter", imageSrc: vowel_counter, webUrl: "https://sachin-codespace.github.io/vowel_counter/" },
-  { title: "age_calculator", imageSrc: age_calculator, webUrl: "https://sachin-codespace.github.io/age_calculator/" },
+  { title: "Age Calculator", imageSrc: age_calculator, webUrl: "https://sachin-codespace.github.io/age_calculator/" },
   { title: "Weather", imageSrc: weather, webUrl: "https://sachin-codespace.github.io/weather_app/" },{ title: "ToDo App", imageSrc: todo_app, webUrl: "https://sachin-codespace.github.io/todo_app/" },
   { title: "Calculator", imageSrc: calculator, webUrl: "https://sachin-codespace.github.io/calculator/" },
   ]
