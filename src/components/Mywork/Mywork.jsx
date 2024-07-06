@@ -7,7 +7,7 @@ import spotify from '../../assets/spotify.jpeg'
 import weather from '../../assets/weather.jpeg'
 import calculator from '../../assets/calculator.jpg'
 
-import age_calculator from '../../assets/calculator.jpg'
+import age_calculator from '../../assets/age_calculator.jpeg'
 import cash_calculator from '../../assets/cash_calculator.jpg'
 import stopwatch_timer from '../../assets/stopwatch_timer.jpeg'
 import vowel_counter from '../../assets/vowel_counter.jpeg'
