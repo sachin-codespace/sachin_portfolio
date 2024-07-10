@@ -13,7 +13,7 @@ import fd_calculator from '../../assets/fd_calculator.jpeg'
 import key_codes from '../../assets/key_codes.jpeg'
 import temperature_converter from '../../assets/temperature_converter.jpeg'
 
-let projects = [{ title: "Netflix", imageSrc: netflix, webUrl: "https://sachin-codespace.github.io/netflix_home/" },
+let projects = [{ title: "Netflix", imageSrc: netflix, webUrl: "https://pronetflix.vercel.app/" },
 { title: "Bubble Game", imageSrc: bubble_game, webUrl: "https://sachin-codespace.github.io/bubble_game/" },
 { title: "Spotify Clone", imageSrc: spotify, webUrl: "https://sachin-codespace.github.io/spotify/" },
 { title: "Cash Calculator", imageSrc: cash_calculator, webUrl: "https://sachin-codespace.github.io/cash_calculator/" },
