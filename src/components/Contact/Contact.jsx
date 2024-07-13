@@ -1,5 +1,8 @@
 import React from "react";
 import './Contact.css'
+import gmail_icon from "../../assets/gmail-icon.png"
+import phone_icon from "../../assets/phone-icon.png"
+import map_icon from "../../assets/map-icon.png"
 const Contact = () => {
     
     return (
@@ -11,15 +14,15 @@ const Contact = () => {
                     <p className="contact-para">I'm currenctly availale to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
                     <div className="contact-details">
                         <div className="contact-detail"><a className="contact-links" href="mailto:sachinprajapatijaipur@gmail.com">
-                            <img className="contact-image" src="https://www.freeiconspng.com/thumbs/gmail-icon/gmail-icon-23.png" />
+                            <img className="contact-image" src={gmail_icon} />
                             <p>
                                 sachinprajapatijaipur@gmail.com</p></a></div>
                         <div className="contact-detail"><a className="contact-links" href="tel:7427021509">
-                            <img className="contact-image" src="https://static.vecteezy.com/system/resources/previews/011/338/343/original/phone-black-icon-with-call-sign-free-png.png" />
+                            <img className="contact-image" src= {phone_icon}/>
                             <p>
                                 +91 7427021509
                             </p></a></div>
-                        <div className="contact-detail"><a target="_blank" className="contact-links" href="https://maps.app.goo.gl/Cz7q8AUEZG73kCfTA">                            <img className="contact-image" src="https://static.vecteezy.com/system/resources/thumbnails/014/441/443/small/map-marker-icon-3d-design-for-application-and-website-presentation-png.png" />
+                        <div className="contact-detail"><a target="_blank" className="contact-links" href="https://maps.app.goo.gl/Cz7q8AUEZG73kCfTA">                            <img className="contact-image" src={map_icon} />
                             <p> Jaipur, Rajasthan-302013</p></a>
 </div></div>
                 </div>
