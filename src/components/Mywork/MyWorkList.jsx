@@ -1,4 +1,4 @@
-// import netflix from "../../assets/netflix.jpeg";
+
 import bubble_game from '../../assets/bubble_game.jpeg'
 import cash_calculator from '../../assets/cash_calculator.jpg'
 import spotify from '../../assets/spotify.jpeg'
@@ -14,7 +14,6 @@ import key_codes from '../../assets/key_codes.jpeg'
 import temperature_converter from '../../assets/temperature_converter.jpeg'
 
 let projects = [
-    // { title: "Netflix", imageSrc: netflix, webUrl: "https://pronetflix.vercel.app/" },
 { title: "Bubble Game", imageSrc: bubble_game, webUrl: "https://sachin-codespace.github.io/bubble_game/" },
 { title: "Spotify Clone", imageSrc: spotify, webUrl: "https://sachin-codespace.github.io/spotify/" },
 { title: "Cash Calculator", imageSrc: cash_calculator, webUrl: "https://sachin-codespace.github.io/cash_calculator/" },
